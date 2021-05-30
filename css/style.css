@@ -30,17 +30,20 @@
 
 /* header */
 .header {
-
+  background-color: var(--basic-light-light-blue);
 }
+
 .header-user-nav {
   background-color: var(--basic-dark-blu);
 }
+
 .header-logo {
   width: 220px;
   height: 47px;
   background-color: var(--basic-red);
   box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.24);
 }
+
 .header-search {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: italic;
@@ -49,10 +52,14 @@
   line-height: 24px;
   color: var(--basic-red);
 }
+
 .header-search-icon {
   background-color: var(--basic-dark-blu);
 }
-.visually-hidden {}
+
+.visually-hidden {
+}
+
 .user-bookmark {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: italic;
@@ -62,6 +69,7 @@
   color: var(--basic-white);
   text-decoration: none;
 }
+
 .user-cart {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: italic;
@@ -71,6 +79,7 @@
   color: var(--basic-white);
   text-decoration: none;
 }
+
 .user-order {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: italic;
@@ -81,6 +90,7 @@
   text-decoration: none;
   background-color: var(--basic-grin);
 }
+
 .header-title {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: italic;
@@ -89,6 +99,7 @@
   line-height: 23px;
   color: var(--basic-red);
 }
+
 .header-phone {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: italic;
@@ -97,6 +108,7 @@
   color: var(--basic-red);
   text-decoration: none;
 }
+
 .header-address {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: italic;
@@ -105,6 +117,7 @@
   line-height: 24px;
   color: var(--basic-light-blue);
 }
+
 .header-login {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: italic;
@@ -114,6 +127,7 @@
   color: var(--basic-black);
   text-decoration: none;
 }
+
 .header-registration {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: italic;
@@ -129,9 +143,11 @@
   background-color: var(--basic-dark-blu);
   box-shadow: inset 0 -5px 0 var(--basic-dark-blu);
 }
+
 .header-menu-list {
   list-style: none;
 }
+
 .header-menu-item a {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: italic;
@@ -143,7 +159,8 @@
 }
 
 /* container */
-.container {}
+.container {
+}
 
 /* category */
 .category li,
@@ -156,11 +173,13 @@
   display: none;
 }
 
-.category-list {}
+.category-list {
+}
 
 .category-materials {
   background-color: var(--basic-category-materials);
 }
+
 .category-materials-title,
 .category-tool-title,
 .category-technique-title,
@@ -173,6 +192,7 @@
   line-height: 30px;
   color: var(--basic-white);
 }
+
 .category-materials-button,
 .category-tool-button,
 .category-technique-button,
@@ -190,7 +210,8 @@
   padding: 10px 26px;
 }
 
-.category-materials-img {}
+.category-materials-img {
+}
 
 .new-mark {
   content: "";
@@ -205,15 +226,19 @@
   background-color: var(--basic-category-tool);
 }
 
-.category-tool-img {}
+.category-tool-img {
+}
 
 .category-technique {
   background-color: var(--basic-category-technique);
 }
 
-.category-technique-img {}
+.category-technique-img {
+}
 
-.category-slider {}
+.category-slider {
+}
+
 .category-slider-title {
   position: absolute;
   font-family: "Cuprum", "Times New Roman", sans-serif;
@@ -224,6 +249,7 @@
   text-transform: uppercase;
   color: var(--basic-white);
 }
+
 .category-slider p {
   position: absolute;
   font-family: "Cuprum", "Times New Roman", sans-serif;
@@ -233,7 +259,10 @@
   line-height: 24px;
   color: var(--basic-white);
 }
-.category-slider-img {}
+
+.category-slider-img {
+}
+
 .button {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: normal;
@@ -250,13 +279,15 @@
   background-color: var(--basic-category-discounts);
 }
 
-.category-discounts-img {}
+.category-discounts-img {
+}
 
 .category-delivery {
   background-color: var(--basic-category-delivery);
 }
 
-.category-delivery-img {}
+.category-delivery-img {
+}
 
 /* products */
 .products-title,
@@ -270,9 +301,16 @@
   background-color: var(--basic-line);
   text-transform: uppercase;
 }
-.products-list {}
-.products-item {}
-.products-item-img {}
+
+.products-list {
+}
+
+.products-item {
+}
+
+.products-item-img {
+}
+
 .products-item-title {
   font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
@@ -281,6 +319,7 @@
   line-height: 20px;
   color: var(--basic-black);
 }
+
 .products-old-price {
   font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
@@ -290,6 +329,7 @@
   text-decoration: line-through;
   color: var(--basic-dark-gray);
 }
+
 .products-new-price {
   font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
@@ -302,13 +342,17 @@
 }
 
 /* manufactures */
-.manufactures-list {}
-.manufactures-item {}
+.manufactures-list {
+}
+
+.manufactures-item {
+}
 
 /* services */
 .services {
   background-color: var(--basic-light-light-blue);
 }
+
 .services-title {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: normal;
@@ -318,6 +362,7 @@
   color: var(--basic-black);
   text-transform: uppercase;
 }
+
 .services-text {
   font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
@@ -326,9 +371,11 @@
   line-height: 24px;
   color: var(--basic-black);
 }
+
 .services-list {
   list-style: none;
 }
+
 .services-item-active a {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: normal;
@@ -338,6 +385,7 @@
   color: var(--basic-light-blue);
   text-decoration: none;
 }
+
 .services-item a {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: normal;
@@ -358,10 +406,15 @@
   color: var(--basic-light-blue);
   text-transform: uppercase;
 }
-.services-text {}
-.services-slider-img {}
 
-.description {}
+.services-text {
+}
+
+.services-slider-img {
+}
+
+.description {
+}
 
 .description-title,
 .contacts-title {
@@ -373,6 +426,7 @@
   color: var(--basic-black);
   text-transform: uppercase;
 }
+
 .description-text,
 .contacts-text {
   font-family: "PT Sans", Arial, sans-serif;
@@ -382,9 +436,11 @@
   line-height: 24px;
   color: var(--basic-black);
 }
+
 .description-list {
   list-style: none;
 }
+
 .description-item {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: normal;
@@ -394,13 +450,17 @@
   color: var(--basic-black);
 }
 
-.contacts-img {}
+.contacts-img {
+}
 
 /* footer */
 .footer {
   background-color: var(--basic-light-blue);
 }
-.footer-logo {}
+
+.footer-logo {
+}
+
 .footer-address {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: normal;
@@ -409,11 +469,13 @@
   line-height: 24px;
   color: var(--basic-footer-address);
 }
+
 .footer-nav li,
 .footer-socials-list,
 .footer-info {
   list-style: none;
 }
+
 .footer-nav-site a {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: normal;
@@ -422,6 +484,7 @@
   line-height: 24px;
   color: var(--basic-light-light-blue);
 }
+
 .footer-nav-category a {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: normal;
@@ -430,6 +493,7 @@
   line-height: 24px;
   color: var(--basic-yelowe);
 }
+
 .footer-copyright {
   font-family: "Cuprum", "Times New Roman", sans-serif;
   font-style: normal;
@@ -439,7 +503,8 @@
   color: var(--basic-white);
 }
 
-.footer-socials-item {}
+.footer-socials-item {
+}
 
 .footer-mail,
 .footer-developed {
@@ -450,6 +515,7 @@
   line-height: 18px;
   color: var(--basic-white);
 }
+
 .footer-mail a,
 .footer-developed a {
   font-family: "Cuprum", "Times New Roman", sans-serif;
