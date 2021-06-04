@@ -1,4 +1,4 @@
-# Личный проект «Техномарт»
+blank.html Личный проект «Техномарт»
 
 * Студент: [Евгений Колюшин](https://up.htmlacademy.ru/htmlcss/31/user/1675661).
 * Наставник: [Александр Румянцев](https://htmlacademy.ru/profile/id1521451).
@@ -11,9 +11,9 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 
 ---
 
-### Памятка
+blank.htmlblank.htmlblank.html Памятка
 
-#### 1. Зарегистрируйтесь на Гитхабе
+blank.htmlblank.html## 1. Зарегистрируйтесь на Гитхабе
 
 Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
 
