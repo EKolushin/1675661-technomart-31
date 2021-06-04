@@ -308,16 +308,16 @@ a {
   text-transform: uppercase;
 }
 
-.products-list {
+.products h2 {
 }
 
-.products-item {
+.products li {
 }
 
-.products-item-img {
+.products img {
 }
 
-.products-item-title {
+.products h3 {
   font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -549,7 +549,7 @@ a {
 .private-nav-list,
 .crumbs-list,
 .filter-list,
-.products-list,
+.products ul,
 .pagination {
   list-style: none;
 }
