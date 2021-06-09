@@ -5,7 +5,7 @@
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="favicon/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/icon-180x180.png">
-    <link rel="manifest" href="favicon/manifest.webmanifest">
+    <!--link rel="manifest" href="favicon/manifest.webmanifest"-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
@@ -17,118 +17,160 @@
 
 <!-- header -->
 <header class="header">
-    <nav class="header-user-nav">
-        <!-- logo -->
-        <a class="header-logo">
-            <img src="img/content/logo-technomart.png" width="108" height="18" alt="logo header">
-        </a>
-        <!-- search form -->
-        <form class="header-search" action="https://echo.htmlacademy.ru" method="get">
-            <label for="search">
-                <img class="header-search-icon" src="img/icons/icon-search.svg" width="20" height="17" alt="Поиск">
-                <span class="visually-hidden"></span>
-                <input type="search" id="search" placeholder="Поиск:">
-            </label>
-        </form>
-        <!-- user nav -->
-        <a class="user-bookmark" href="blank.html">
-            <img src="img/icons/icon-bookmark.svg" width="20" height="17" alt="Закладки">Закладки</a>
-        <a class="user-cart" href="blank.html">
-            <img src="img/icons/icon-cart.svg" width="20" height="17" alt="Корзина">Корзина</a>
-        <a class="user-order" href="blank.html">Оформить заказ</a>
-    </nav>
-    <!-- header title and contacts -->
-    <h1 class="header-title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-    <a class="header-phone" href="tel:+78005558628">
-        <img src="img/icons/icon-phone.svg" width="20" height="17" alt="Телефон">+7 800 555-86-28</a>
-    <address class="header-address">г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</address>
-    <!-- login and registration -->
-    <a class="header-login" href="blank.html">
-        <img src="img/icons/icon-login.svg" width="20" height="17" alt="Войти">Войти</a>
-    <a class="header-registration" href="#">Регистрация</a>
+    <div class="header-top">
+        <nav class="header-user-nav">
+            <!-- logo -->
+            <div class="container">
+                <div class="grid-header-user-nav">
+                    <a class="header-logo">
+                        <img src="img/content/logo-technomart.png" width="108" height="18" alt="logo header">
+                    </a>
+                    <!-- search form -->
+                    <form class="header-search" action="https://echo.htmlacademy.ru" method="get">
+                        <label for="search">
+                            <img class="header-search-icon" src="img/icons/icon-search.svg" width="20" height="17"
+                                 alt="Поиск">Поиск</label>
+                        <input class="main-search" type="text" name='search' id="search">
+                    </form>
+                    <!-- user nav -->
+                    <a class="user-bookmark" href="blank.html">
+                        <img src="img/icons/icon-bookmark.svg" width="20" height="17" alt="Закладки">Закладки:0</a>
+                    <a class="user-cart" href="blank.html">
+                        <img src="img/icons/icon-cart.svg" width="20" height="17" alt="Корзина">Корзина:0</a>
+                    <a class="user-order" href="blank.html">Оформить заказ</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="header-top-contact">
+            <!-- header title and contacts -->
+            <h1 class="header-title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+            <address class="header-address">
+                <a class="header-phone" href="tel:+78005558628">
+                    <img src="img/icons/icon-phone.svg" width="20" height="17" alt="Телефон">+7 800 555-86-28</a>
+                <p class="address-title">г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
+            </address>
+            <!-- login and registration -->
+            <a class="header-login" href="blank.html">
+                <img src="img/icons/icon-login.svg" width="20" height="17" alt="Войти">Войти</a>
+            <a class="header-registration" href="#">Регистрация</a>
+        </div>
+    </div>
     <!-- site nav -->
-    <nav class="header-menu">
-        <ul class="header-menu-list">
-            <li class="header-menu-item">
-                <a href="index.html">Главная</a>
-            </li>
-            <li class="header-menu-item">
-                <a href="blank.html">Компания</a>
-            </li>
-            <li class="header-menu-item">
-                <a href="catalog.html">Каталог</a>
-            </li>
-            <li class="header-menu-item">
-                <a href="blank.html">Новости</a>
-            </li>
-            <li class="header-menu-item">
-                <a href="blank.html">Спецпредложения</a>
-            </li>
-            <li class="header-menu-item">
-                <a href="blank.html">Доставка</a>
-            </li>
-            <li class="header-menu-item">
-                <a href="blank.html">Контакты</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="container">
+        <nav class="header-menu">
+            <ul class="header-menu-list">
+                <li class="header-menu-item">
+                    <a href="index.html">Главная</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="blank.html">Компания</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="catalog.html">Каталог</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="blank.html">Новости</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="blank.html">Спецпредложения</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="blank.html">Доставка</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="blank.html">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <main class="container">
     <!-- category -->
     <section class="category">
         <h2 class="category-title">Категории</h2>
-        <ul class="category-list">
-            <li class="category-materials">
-                <h3 class="category-materials-title">Материалы</h3>
-                <a class="category-materials-button" href="blank.html">На любой вкус</a>
+        <div class="category-list">
+            <div class="category-materials">
+                <h3>Материалы</h3>
+                <a href="blank.html">На любой вкус</a>
+                <span class="new-mark"></span>
                 <img class="category-materials-img" src="img/icons/icon-materials.png" width="44" height="65"
                      alt="Материалы">
-                <span class="new-mark"></span>
-            </li>
-            <li class="category-tool">
+            </div>
+            <div class="category-tool">
                 <h3 class="category-tool-title">Инструмент</h3>
                 <a class="category-tool-button" href="blank.html">На все случаи</a>
                 <img class="category-tool-img" src="img/icons/icon-tool.png" width="75" height="61" alt="Инструмент">
-            </li>
-            <li class="category-technique">
+            </div>
+            <div class="category-technique">
                 <h3 class="category-technique-title">Техника</h3>
                 <a class="category-technique-button" href="blank.html">Для стройки</a>
                 <img class="category-technique-img" src="img/icons/icon-technique.png" width="78" height="62"
                      alt="Техника">
-            </li>
+            </div>
 
-            <li class="category-slider">
-                <figure>
-                    <figcaption>
-                        <h3 class="category-slider-title">Перфораторы</h3>
-                        <p>Настоящие мужские игрушки</p>
-                    </figcaption>
-                    <img class="category-slider-img" src="img/content/punchers.jpg" width="620" height="266"
-                         alt="Перфораторы">
-                    <a class="button" href="blank.html">Открыть каталог</a>
-                </figure>
-            </li>
+            <div class="category-slider">
+                <div class="category-slider-title slider">
+                    <input class="slider-input slider-input-1" id="slide1" name="slides" type="radio" checked>
+                    <input class="slider-input slider-input-2" id="slide2" name="slides" type="radio">
+                    <div class="slider-control-block">
+                        <label class="slider-button slider-button-1" for="slide1">
+                        </label>
+                        <label class="slider-button slider-button-2" for="slide2">
+                        </label>
+                    </div>
+                    <div class="slide slide-1">
+                        <h2 class="slide-title">
+                            Перфораторы
+                        </h2>
+                        <p class="slide-slogan">
+                            Настоящие мужские игрушки
+                        </p>
+                        <a class="category-slider-link" href="catalog.html">
+                            Открыть каталог
+                        </a>
+                    </div>
+                    <div class="slide slide-2">
+                        <h2 class="slide-title">
+                            Дрели
+                        </h2>
+                        <p class="slide-slogan">
+                            Соседям на радость!
+                        </p>
+                        <a class="category-slider-link" href="catalog.html">
+                            Открыть каталог
+                        </a>
+                    </div>
+                    <label class="slider-arrow-left" for="slide1">
+                    </label>
+                    <label class="slider-arrow-right" for="slide2">
+                    </label>
+                </div>
+            </div>
 
-            <li class="category-discounts">
+            <div class="category-discounts">
                 <h3 class="category-discounts-title">Скидка 50%</h3>
                 <a class="category-discounts-button" href="blank.html">На 350 товаров</a>
                 <img class="category-discounts-img" src="img/icons/icon-discounts.png" width="59" height="72"
                      alt="Скидка 50%">
-            </li>
-            <li class="category-delivery">
+            </div>
+            <div class="category-delivery">
                 <h3 class="category-delivery-title">Доставка</h3>
                 <a class="category-delivery-button" href="blank.html">Бесплатно</a>
                 <img class="category-delivery-img" src="img/icons/icon-delivery.png" width="78" height="63"
                      alt="Доставка">
-            </li>
-        </ul>
+            </div>
+        </div>
     </section>
 
     <!-- products -->
     <section class="products">
-        <h2>Популярные товары:</h2>
-        <a class="button" href="blank.html">Все популярные товары</a>
+        <div class="products-header">
+            <h2>Популярные товары:</h2>
+            <a class="button" href="blank.html">Все популярные товары</a>
+        </div>
         <ul>
             <li>
                 <img src="img/content/bfg9000.png" width="184" height="164"
@@ -165,8 +207,10 @@
 
     <!-- manufactures -->
     <section class="manufactures">
-        <h2 class="manufactures-title">Популярные производители:</h2>
-        <a class="button" href="blank.html">Все производители</a>
+        <div class="manufactures-header">
+            <h2 class="manufactures-title">Популярные производители:</h2>
+            <a class="button" href="blank.html">Все производители</a>
+        </div>
         <ul class="manufactures-list">
             <li class="manufactures-item">
                 <a href="blank.html"><img src="img/partners/bosch.png" width="220" height="145" alt="Bosch"></a>
