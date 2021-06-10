@@ -627,6 +627,13 @@ a {
     text-align: center;
     border: 1px solid var(--basic-border-products);
     padding: 20px;
+    overflow: hidden;
+    min-height: 318px;
+}
+
+.products-container {
+    position: absolute;
+    bottom: 2px;
 }
 
 .products img {
